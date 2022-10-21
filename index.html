@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- 
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/img/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/img/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/img/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="/img/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <link rel="shortcut icon" href="/img/favicon/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta
+      name="msapplication-config"
+      content="/img/favicon/browserconfig.xml"
+    />
+    <meta name="theme-color" content="#ececec" /> -->
+
+  <link rel="shortcut icon" type="image/png" href="favicon-1.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap" rel="stylesheet" />
+  <script src="https://unpkg.com/phosphor-icons"></script>
+  <link rel="stylesheet" href="css/style.css" />
+
+  <title>QRadio | Quran all time</title>
+</head>
+
+<body>
+  <div class="gradient"></div>
+  <div class="container">
+    <nav class="nav">
+      <img src="logo.svg" alt="qradio logo" class="logo" />
+      <ul class="nav-list">
+        <!-- <li class="nav-item active">Radio</li> -->
+        <li class="nav-item language pointer">
+          <i class="ph-globe-simple" class="nav-icon"></i>
+          <span>Language</span>
+          <div class="lang">
+            <ul class="list-lang">
+              <li class="lang-item">
+                <a href="#" class="lang-link"> Arabic </a>
+              </li>
+              <li class="lang-item">
+                <a href="#" class="lang-link"> French </a>
+              </li>
+              <li class="lang-item">
+                <a href="#" class="lang-link"> English </a>
+              </li>
+              <li class="lang-item">
+                <a href="#" class="lang-link"> Chinese </a>
+              </li>
+              <li class="lang-item">
+                <a href="#" class="lang-link"> Turkish </a>
+              </li>
+              <li class="lang-item">
+                <a href="#" class="lang-link"> Russian </a>
+              </li>
+              <li class="lang-item">
+                <a href="#" class="lang-link"> Urdu </a>
+              </li>
+              <li class="lang-item">
+                <a href="#" class="lang-link"> Indonesian </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <div class="main-data">
+
+      <div class="play-now">
+        <p class="subheading">Playing now</p>
+        <h2 class="station-name">--Choose station--</h2>
+        <div class="controller">
+          <button class="controller-btn fav-btn" type="button" data-role="fav">
+            &InvisibleComma;
+
+            <i class="ph-heart controller-icon pointer"></i>
+          </button>
+          <button class="controller-btn play-btn" type="button" data-role="play">
+            &InvisibleComma;
+
+            <i class="ph-play-fill icon play pointer"></i>
+          </button>
+          <button class="controller-btn hidden pause-btn" type="button" data-role="pause">
+            &InvisibleComma;
+
+            <i class="ph-pause-fill icon pause pointer"></i>
+          </button>
+          <button class="controller-btn shuffle-btn" type="button" data-role="shuffle">
+            &InvisibleComma;
+            <i class="ph-shuffle-fill controller-icon pointer"></i>
+          </button>
+        </div>
+      </div>
+
+    </div>
+    <div class="station-section">
+      <h1 class="main-heading">All stations</h1>
+      <ul class="stations">
+        <!-- <li class="station">
+            <i class="ph-play-fill play icon"></i>
+            <i class="ph-pause-fill pause icon"></i>
+            <span class="name-station">Abdulbasit Abdulsamad</span>
+          </li>
+          <li class="station">
+            <i class="ph-play-fill play icon"></i>
+            <i class="ph-pause-fill pause icon"></i>
+            <span class="name-station">Tawfeeq As-Sayegh</span>
+          </li>
+          <li class="station active">
+            <i class="ph-play-fill play icon"></i>
+            <i class="ph-pause-fill pause icon"></i>
+            <span class="name-station">Yasser Al-Dosari</span>
+          </li>
+          <li class="station">
+            <i class="ph-play-fill play icon"></i>
+            <i class="ph-pause-fill pause icon"></i>
+            <span class="name-station">Abdullah Basfer</span>
+          </li>
+          <li class="station">
+            <i class="ph-play-fill play icon"></i>
+            <i class="ph-pause-fill pause icon"></i>
+            <span class="name-station">Khaled Al-Qahtani</span>
+          </li>
+          <li class="station">
+            <i class="ph-play-fill play icon"></i>
+            <i class="ph-pause-fill pause icon"></i>
+            <span class="name-station">Mohammad Abdullkarem</span>
+          </li> -->
+      </ul>
+      <p class="signature">
+        Designed and development by
+        <a class="bold" href="https://www.linkedin.com/in/mohamed-ezzat-8b0662207/" target="_blank"
+          rel="noopener noreferrer">
+          MoEzzat</a>
+      </p>
+    </div>
+    <div class="popular">
+      <h2 class="second-heading">Favorite</h2>
+      <div class="popular-container">
+        <div class="popular-stations">
+          <!-- <div class="popular-station eid">
+                    <h3 class="popular-station--name">EID's TAKBEER</h3>
+                  </div>
+                  <div class="popular-station recitation">
+                    <h3 class="popular-station--name">Beautiful Recitations</h3>
+                  </div>
+                  <div class="popular-station tafseer">
+                    <h3 class="popular-station--name">Quran Tafseer</h3>
+                  </div> -->
+        </div>
+        <!-- <i class="ph-caret-right-bold next-card"></i> -->
+      </div>
+    </div>
+  </div>
+  <script defer type="module" src="js/script.js"></script>
+</body>
+
+</html>

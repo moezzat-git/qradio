@@ -1,0 +1,28 @@
+.controller {
+  font-size: 4.8rem;
+  display: flex;
+  gap: 5.4rem;
+  align-items: center;
+  justify-content: center;
+
+  justify-self: center;
+}
+
+.controller-btn {
+  /* outline: none; */
+  background: none;
+  border: none;
+}
+
+.controller-icon {
+  font-size: 3.2rem;
+  color: #343a40;
+}
+
+.controller .icon {
+  background-color: #343a40;
+  font-size: 3.2rem;
+  color: #fff;
+  padding: 1.2rem;
+  border-radius: 50%;
+}
